@@ -1,0 +1,52 @@
+:root{
+  --blue-bg: #001F3F;
+  --branco: #f3f3f3;
+  --amarelo: #FFA500;
+  --cinza: #999999;
+  --azul-claro: #419FFF;
+}
+
+.main-servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 90dvw;
+    margin-top: 15dvh;
+}
+
+.box-servico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--azul-claro);
+    border-radius: 10px;
+    width: 250px;
+    height: 220px;
+    margin: 5dvh 5dvw;
+}
+
+.box-servico>img{
+    width: 40px;
+    height: 40px;
+}
+
+.box-servico>h3{
+    font-size: 1.1rem;
+    color: var(--amarelo);
+    margin-top: 1dvh;
+}
+
+.box-servico>p{
+    color: var(--branco);
+    font-size: .9rem;
+    margin-top: 2dvh;
+}
