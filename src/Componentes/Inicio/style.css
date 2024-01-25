@@ -28,6 +28,7 @@
   align-items: center;
   justify-content: center;
   margin: 5dvh 10dvw;
+  transition: .5s;
 }
 
 .counter-topicos-inicio .active{
@@ -40,7 +41,7 @@
   text-align: center;
   margin: 5dvh auto;
   width: 700px;
-  max-width: 80dvw;
+  max-width: 80dvw;   
 }
 .texto-topico>h2{
   font-size: 1.6rem;
@@ -59,8 +60,9 @@
 }
 
 .botao-counter{
-  margin: auto 10dvw;
-  font-size: 1.2rem;
+  margin: auto 5dvw;
+  font-size: 1.1rem;
+  font-weight: 600;
   border: none;
   border-radius: 20px;
   width: 120px;

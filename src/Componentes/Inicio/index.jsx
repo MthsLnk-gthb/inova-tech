@@ -1,5 +1,5 @@
-import { Link, Navigate, useNavigate} from 'react-router-dom';
 import './style.css'
+import {useNavigate} from 'react-router-dom';
 
 import { useState } from "react";
 
@@ -50,11 +50,11 @@ const TopicosInicio = () => {
       <section className="flex-botoes">
         {topico > 0 && (
           <button className="botao-counter anterior" onClick={handleAnterior}>
-            Anterior
+            «Anterior
           </button>
         )}
         <button className="botao-counter proximo" onClick={handleProximo}>
-          {topico === 2 ? "Vamos lá" : "Próximo"}
+          {topico === 2 ? "Vamos lá»" : "Próximo»"}
         </button>
       </section>
     </main>
