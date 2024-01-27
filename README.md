@@ -4,4 +4,6 @@
 #### Existe uma mudança de estilos e textos, ambas feitas com gerenciamento de estado e classes condicionais, também usei a biblioteca react-roter-dom para o direcionamento de página.
 
 ### Podes acessar [AQUI](mthslnk-gthb.github.io/inova-tech/) o link da página da aplicação.
+** Caso o link não esteja funcionando, você pode copiar e colar ele no seu navegador, que assim irá funcionar.
+
 #### [AQUI](https://www.figma.com/file/8QZa7LHumsoU4272T4cc8x/inova-tech?type=design&node-id=0%3A1&mode=design&t=3NvUHmJWhMoQwu3Z-1) você pode acessar o Figma da aplicação.
