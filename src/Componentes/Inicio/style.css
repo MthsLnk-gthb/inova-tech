@@ -1,11 +1,11 @@
-:root{
-  --blue-bg: #001F3F;
+:root {
+  --blue-bg: #001f3f;
   --branco: #f3f3f3;
-  --amarelo: #FFA500;
+  --amarelo: #ffa500;
   --cinza: #999999;
 }
 
-.topicos-inicio{
+.topicos-inicio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,13 +13,13 @@
   margin-top: 10dvh;
 }
 
-.counter-topicos-inicio{
+.counter-topicos-inicio {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.counter-topicos-inicio>div{
+.counter-topicos-inicio > div {
   background-color: var(--branco);
   border-radius: 50%;
   width: 40px;
@@ -28,55 +28,57 @@
   align-items: center;
   justify-content: center;
   margin: 5dvh 10dvw;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.counter-topicos-inicio .active{
+.counter-topicos-inicio .active {
   background-color: var(--amarelo);
 }
 
-.texto-topico{
+.texto-topico {
   display: grid;
   place-items: center;
   text-align: center;
   margin: 5dvh auto;
   width: 700px;
-  max-width: 80dvw;   
+  max-width: 80dvw;
 }
-.texto-topico>h2{
+.texto-topico > h2 {
   font-size: 1.6rem;
   color: var(--amarelo);
 }
-.texto-topico>p{
+.texto-topico > p {
   color: var(--branco);
   margin-top: 5dvh;
 }
 
-.flex-botoes{
+.flex-botoes {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10dvh;
+  position: absolute;
+  bottom: 100px;
 }
 
-.botao-counter{
-  margin: auto 5dvw;
+.botao-counter {
   font-size: 1.1rem;
   font-weight: 600;
   border: none;
   border-radius: 20px;
   width: 120px;
   height: 50px;
-  
-  &:hover{
+  margin: auto 5dvw;
+
+  &:hover {
     cursor: pointer;
   }
 }
 
-.anterior{
+.anterior {
   background-color: var(--cinza);
 }
 
-.proximo{
+.proximo {
   background-color: var(--amarelo);
 }
